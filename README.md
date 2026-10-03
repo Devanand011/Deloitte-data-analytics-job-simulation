@@ -1,4 +1,4 @@
-##Deloitte Data Analytics Job Simulation
+## Deloitte Data Analytics Job Simulation
 
 Forage | Deloitte Australia
 
@@ -12,7 +12,7 @@ Tools Used
 - Tableau— Data visualization and dashboard development.
 - Data Analysis — Identifying patterns, trends, and potential business insights.
 
-##Work Completed
+## Work Completed
 
 1. Excel — Equality Analysis
 Analyzed employee compensation data to identify potential patterns and disparities across different groups.
@@ -33,7 +33,7 @@ Key work:
 - Built a dashboard to communicate findings
 - Focused on making the results easy to interpret
 
-##Screenshot:
+## Screenshot:
 
 `Tableau/tableau-dashboard.png`
 
@@ -47,7 +47,7 @@ Skills Demonstrated
 - Analytical Problem Solving
 - Communicating Data-Driven Findings
 
-##About the Simulation
+## About the Simulation
 This was a **virtual job simulation completed through Forage**, designed to provide practical exposure to the type of data analytics work performed in a professional environment.
 
 **Organization:** Deloitte Australia  
