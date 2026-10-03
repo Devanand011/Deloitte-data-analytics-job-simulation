@@ -30,30 +30,27 @@ The analysis focuses on unhealthy machine statuses, treating each unhealthy stat
 
 Analysis Performed
 1. Potential Downtime Calculation
-Created a calculated field named Unhealthy in Tableau.
-
-IF [Status] = "unhealthy" THEN 10 ELSE 0 END
-
-This converts each unhealthy machine status into 10 minutes of potential downtime, allowing downtime to be aggregated across different factories and device types.
+   Created a calculated field named Unhealthy in Tableau.
+   IF [Status] = "unhealthy" THEN 10 ELSE 0 END
+   This converts each unhealthy machine status into 10 minutes of potential downtime, allowing downtime to be aggregated across different
+   factories and device types.
 
 2. Downtime by Factory
-Created a bar chart showing the total potential downtime for each factory.
-This makes it possible to quickly identify factories experiencing the highest amount of potential machine downtime.
+   Created a bar chart showing the total potential downtime for each factory.
+   This makes it possible to quickly identify factories experiencing the highest amount of potential machine downtime.
 
 3. Downtime by Device Type
-Created a second bar chart showing potential downtime across different device types.
-This helps identify which types of equipment contribute most to downtime.
+   Created a second bar chart showing potential downtime across different device types.
+   This helps identify which types of equipment contribute most to downtime.
 
 4. Interactive Dashboard
-Combined both visualizations into a Tableau dashboard.
-
-The Factory chart was configured as an interactive filter. Selecting a factory dynamically filters the Device Type chart, allowing the equipment contributing to downtime within a specific factory to be investigated.
+   Combined both visualizations into a Tableau dashboard.
+   The Factory chart was configured as an interactive filter. Selecting a factory dynamically filters the Device Type chart, allowing the
+   equipment contributing to downtime within a specific factory to be investigated.
 
 Key Finding
-
-The factory with the highest potential downtime was Seiko, with more than 450 minutes of potential downtime in the analyzed data.
-
-After selecting Seiko in the dashboard, the device-type analysis showed that the Laser Welder accounted for the observed downtime within the selected factory.
+1. The factory with the highest potential downtime was Seiko, with more than 450 minutes of potential downtime in the analyzed data.
+2. After selecting Seiko in the dashboard, the device-type analysis showed that the Laser Welder accounted for the observed downtime within the selected factory.
 
 Tools Used
 
@@ -62,17 +59,11 @@ Tools Used
 3. Bar Charts
 4. Interactive Dashboard Filters
 5. Data Aggregation and Visualization
-   
-Skills Demonstrated
-1. Data visualization
-2. Exploratory data analysis
-3. Calculated fields
-4. Dashboard development
-5. Interactive filtering
-6. Translating raw operational data into actionable insights
 
 ## Screenshot:
 Excel
+
+
 ![Excel1](Screenshots/excel1.png)
 ![excel2](Screenshots/excel2.png)
 
