@@ -30,6 +30,7 @@ The analysis focuses on unhealthy machine statuses, treating each unhealthy stat
 
 Analysis Performed
 1. Potential Downtime Calculation
+   
    Created a calculated field named Unhealthy in Tableau.
    
    IF [Status] = "unhealthy" THEN 10 ELSE 0 END
