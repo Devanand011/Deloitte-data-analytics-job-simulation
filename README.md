@@ -35,7 +35,7 @@ Key work:
 
 ## Screenshot:
 
-`Deloitte_Datas_analysis.png`
+`Screenshots/Deloitte_Datas_analysis.png`
 
 Skills Demonstrated
 - Data Cleaning & Preparation
